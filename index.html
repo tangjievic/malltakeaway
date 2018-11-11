@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>takeawaymall</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="http://js.shopsdk.mob.com/assets/libs/shopSDK.v1.0.main.js?appkey=2892255b74690"></script>
+     <!-- 这个就是我使用的商城mocke平台网址，不过他里面的文档并不是我们常用的网址形式的api，需要我们先使用他文档中的api然后去调试页面，去network中查看他们请求的网络地址，这样我们就能得到我们想要的api了 -->
+    <script type="text/javascript">
+        let addKey = shopSDK.getKey();
+        let sdk = new shopSDK({key:addKey});
+        // sdk.getProductDetail({
+          
+        // })
+    </script>
+  </body>
+</html>
